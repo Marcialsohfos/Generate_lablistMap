@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Extraction Laboratoires",
+    page_title="Extraction Données",
     page_icon="🔬",
     layout="wide"
 )
@@ -232,7 +232,7 @@ def main():
     else:
         # Message d'accueil quand aucun fichier n'est chargé
         st.info("""
-        ## 🚀 Bienvenue dans l'outil d'extraction des laboratoires
+        ## 🚀 Bienvenue dans l'outil d'extraction des données
         
         **Pour commencer:**
         1. **Téléchargez** votre fichier Excel dans le menu de gauche
@@ -256,4 +256,5 @@ def main():
             """)
 
 if __name__ == "__main__":
+
     main()
